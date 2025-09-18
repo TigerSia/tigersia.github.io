@@ -1,0 +1,116 @@
+.m-5 {
+    background-color: rgb(255, 245, 205)
+}
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 150px;
+    background-color: #a4af8b;
+    color: rgb(12, 147, 180);
+    padding-top: 20px;
+    z-index: 1000;
+}
+header {
+    margin-left: 160px;
+}
+
+.sidebar a {
+    display: block;
+    color: rgb(223, 217, 217);
+    padding: 15px 20px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: #dfdada;
+}
+
+#list {
+    margin-left: 160px;
+    padding-top: 40px;
+    border-radius: 15px;
+}
+#contact {
+    margin-left: 160px;
+    margin-top: 40px;
+    border-radius: 15px;
+}
+
+h1 {
+    background-color: rgb(226, 211, 211);
+    padding: 20px;
+    border-radius: 15px;
+    text-shadow: 1px 2px 2px rgb(185, 180, 180);
+}
+h2, h3, h4 {
+    font-style: oblique;
+    background-color: rgb(196, 219, 203);
+    padding: 20px;
+    border-radius: 15px;
+    text-shadow: 1px 2px 2px rgb(185, 180, 180);
+}
+h5 {
+    font-style: oblique;
+    background-color: rgb(196, 219, 203);
+    text-shadow: 1px 2px 2px rgb(185, 180, 180);
+    text-align: center;
+    padding:20px;
+    margin-top:0;
+}
+
+#replit {
+    color: rgb(59, 126, 89);
+    font-size: 25px;
+    font-style: italic;
+    text-shadow: 1px 2px 2px rgb(185, 180, 180);
+}
+
+.fa-bars:hover {
+    color: blue;
+    font-size: 30px;
+}
+
+.fa-paperclip:hover {
+    color:blue;
+    font-size: 30px;
+}
+
+.fa-house:hover {
+    color:rgb(209, 122, 209)  
+}
+.fa-js:hover {
+    color:black;
+}
+.fa-python:hover {
+    color:black;
+}
+
+.screenshot {
+    width: 25%;
+    height: 25%;
+}
+
+#about {
+    font-size: 25px;
+    font-style: italic;
+    color: rgb(59, 126, 89);
+    font-weight: bold;
+    text-shadow: 1px 2px 2px rgb(185, 180, 180);
+    margin-left: 160px;
+    border-radius: 15px;
+}
+
+a:link {
+    text-decoration: none;
+  }
+a:hover {
+    text-decoration: rgb(248, 245, 245);
+}
+#school {
+    font-size: 25px;
+}
+
+
